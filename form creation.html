@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+<title>ex30</title>
+<link rel ="icon" href ="C:\Users\pavan\Desktop\images\ASX.jpeg"/>
+<style>
+	body{
+	background-color:ivory;
+	}
+	#container{
+	background-color:teal;
+	color:white;
+	width:300px;
+	padding:15px;
+	margin:auto;
+	border-radius:10px;
+	
+	}
+	div{
+		margin-bottom:10px;
+	
+	}
+	h2{
+	text-align:center;
+	text-decoration:underline;
+	}
+	#container:hover{
+	box-shadow:0 0 20px blue;
+	}
+</style>
+</head>
+<body>
+<div id = "container">
+<h2>Regisration form</h2>
+<form id = "f1" action = "register.html" autocomplete="off">
+<div>
+<label for = "fn">Fullname</label><span> *</span>
+<br>
+<input type="text" id ="fna" autofocus required>
+</div>
+<div>
+<label for =}em">Email-id</label><span>*</span>
+<br>
+<input type ="email" id="em" name="em" required>
+<div>
+<div>
+<label for ="ph">Contact number </label><span>*</span>
+<br>
+<input type ="number" id="ph" name="ph" min="6000000000" max="9999999999" required>
+</div>
+<div>
+<label for ="dob">Date of birth</label> <br>
+<input type ="date" id="dob" name="dob" min="1995-01-01" max ="2010-12-31">
+</div>
+<div>
+<label>Gender</label>
+<input type ="radio" id="g1" name ="gen" value="m"><label for ="g1">male</label>
+<input type ="radio" id=g2" name="gen2" name ="gen"value="f"> 
+<label for ="g2">Female</label>
+</div>
+<div>
+<label for ="course">Which Course?</label>
+<br>
+<select id ="course" name ="course">
+<option value ="jfs">java</option>
+<option value = "pds">Python</option>
+<option value ="hts">htmls</option>
+</select>
+</div>
+<label for "mot">mode of trining</label><br>
+<select id="mot" name ="mot">
+<option value="ct">classroom training</option>
+<option value="ot">online training</option>
+<option value="pmt">placement training</option>
+<option value="pt">project training</option>
+<option value="ct">classroom training</option>
+</select>
+</div>
+<div align="center">
+
+
+
+</form>
+</div>
+</body>
+
